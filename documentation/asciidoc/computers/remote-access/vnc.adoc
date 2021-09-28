@@ -109,6 +109,8 @@ If your Raspberry Pi is headless (i.e. not plugged into a monitor) or controllin
 VNC Server can create a *virtual desktop* for you, giving you graphical remote access on demand. This virtual desktop exists only in your Raspberry Pi's memory:
 
 To create and connect to a virtual desktop:
++
+NOTE: You need to have a GUI installed on the Raspberry Pi you want to connect.
 
 * On your Raspberry Pi (using Terminal or via SSH), run `vncserver`. Make note of the IP address/display number that VNC Server will print to your Terminal (e.g. `192.167.5.149:1`).
 * On the device you'll use to take control, enter this information into https://www.realvnc.com/download/viewer/[VNC Viewer].
