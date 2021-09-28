@@ -112,6 +112,8 @@ To create and connect to a virtual desktop:
 
 * On your Raspberry Pi (using Terminal or via SSH), run `vncserver`. Make note of the IP address/display number that VNC Server will print to your Terminal (e.g. `192.167.5.149:1`).
 * On the device you'll use to take control, enter this information into https://www.realvnc.com/download/viewer/[VNC Viewer].
++
+NOTE: You need to have a GUI installed on the server.
 
 To destroy a virtual desktop, run the following command:
 
